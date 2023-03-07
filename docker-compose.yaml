@@ -15,7 +15,7 @@ services:
       - 445:445
     volumes:
       - ${MEDIA}:/media
-      - ${STORAGE}:/downloads
+      - ${STORAGE}/downloads:/downloads
 
   plex:
     image: jaymoulin/plex:1.30.1.6562
@@ -63,5 +63,5 @@ services:
       - PUID=1001
       - PGID=1001
       - TORRENT_PLUGIN=transmission
-      - FG_WEBUI_PASSWD=p3l4d0_N3RD # la puedes cambiar por la que quieras
+      - FG_WEBUI_PASSWD=123456123Kaos. # la puedes cambiar por la que quieras
     restart: unless-stopped
