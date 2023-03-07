@@ -15,24 +15,24 @@ templates:
         tv:
           exact: yes
           propers: 12 hours
-          quality: 720p
+          quality: 1024p
       tv:
-      - Black Mirror
-      - Brooklyn Nine-Nine
-      - Homeland
-      - Luther
+#      - Black Mirror
+#      - Brooklyn Nine-Nine
+#      - Homeland
+#      - Luther
       - Mr Robot
-      - Rick and Morty
-      - SEAL Team
-      - Sherlock
-      - Silicon Valley
-      - Suits
-      - The Flash
-      - The Good Fight
-      - The Walking Dead
-      - Tosh.0
-      - True Detective
-      - Westworld
+#      - Rick and Morty
+#      - SEAL Team
+#      - Sherlock
+#      - Silicon Valley
+#      - Suits
+#      - The Flash
+#      - The Good Fight
+#      - The Walking Dead
+#      - Tosh.0
+#      - True Detective
+#      - Westworld
 
     transmission:
       host: transmission
