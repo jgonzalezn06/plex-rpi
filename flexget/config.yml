@@ -15,7 +15,7 @@ templates:
         tv:
           exact: yes
           propers: 12 hours
-          quality: 1024p
+          quality: 1060p
       tv:
 #      - Black Mirror
 #      - Brooklyn Nine-Nine
@@ -51,7 +51,7 @@ tasks:
     parsing:
       series: guessit
     filesystem:
-      path: /downloads/complete
+      path: /downloads
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
     accept_all: yes
@@ -72,7 +72,7 @@ tasks:
     priority: 2
     no_entries_ok: yes
     filesystem:
-      path: /downloads/complete
+      path: /downloads
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
     accept_all: yes
